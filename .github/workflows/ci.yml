@@ -1,1 +1,14 @@
+name: Cypress
 
+on: [ push, pull_request ]
+
+jobs:
+  cypress:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - run: npm i
+      - run: npx cypress run 
