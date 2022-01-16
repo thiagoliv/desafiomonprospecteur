@@ -1,0 +1,9 @@
+{
+    "baseUrl": "https://stg-front.test-mp.fun/",
+    "watchForFileChanges": false,
+    "responseTimeout": 120000,
+    "env": {
+        "user":"thiagocboliveira156@gmail.com",
+        "pass":"thiagocboliveira@123"
+    }
+}
